@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/afarid/terratest/modules/collections"
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/testing"
 	"golang.org/x/crypto/ssh"
 )
 

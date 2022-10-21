@@ -3,9 +3,9 @@ package docker
 import (
 	"strconv"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/shell"
+	"github.com/afarid/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

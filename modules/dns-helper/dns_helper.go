@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/retry"
+	"github.com/afarid/terratest/modules/testing"
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/require"
 )

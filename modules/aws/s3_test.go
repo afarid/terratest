@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/random"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

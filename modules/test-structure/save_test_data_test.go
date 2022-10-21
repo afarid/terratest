@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/k8s"
-	"github.com/gruntwork-io/terratest/modules/terraform"
+	"github.com/afarid/terratest/modules/files"
+	"github.com/afarid/terratest/modules/k8s"
+	"github.com/afarid/terratest/modules/terraform"
 	"github.com/stretchr/testify/assert"
 )
 

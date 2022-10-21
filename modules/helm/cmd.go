@@ -1,9 +1,9 @@
 package helm
 
 import (
+	"github.com/afarid/terratest/modules/shell"
+	"github.com/afarid/terratest/modules/testing"
 	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
 )
 
 // getCommonArgs extracts common helm options. In this case, these are:

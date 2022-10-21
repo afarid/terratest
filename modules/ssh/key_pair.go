@@ -6,8 +6,8 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/testing"
 	"golang.org/x/crypto/ssh"
 )
 

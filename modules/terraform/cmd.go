@@ -3,10 +3,10 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/afarid/terratest/modules/collections"
+	"github.com/afarid/terratest/modules/retry"
+	"github.com/afarid/terratest/modules/shell"
+	"github.com/afarid/terratest/modules/testing"
 )
 
 func generateCommand(options *Options, args ...string) shell.Command {

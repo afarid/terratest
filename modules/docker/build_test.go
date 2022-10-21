@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gruntwork-io/terratest/modules/git"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/afarid/terratest/modules/git"
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/random"
 	"github.com/stretchr/testify/require"
 )
 

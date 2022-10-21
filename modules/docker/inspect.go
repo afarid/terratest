@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/shell"
 	"github.com/stretchr/testify/require"
 )
 

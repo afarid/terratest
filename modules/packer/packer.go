@@ -11,13 +11,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/afarid/terratest/modules/retry"
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/shell"
-	"github.com/gruntwork-io/terratest/modules/testing"
+	"github.com/afarid/terratest/modules/logger"
+	"github.com/afarid/terratest/modules/shell"
+	"github.com/afarid/terratest/modules/testing"
 	"github.com/hashicorp/go-version"
 )
 
@@ -162,7 +162,6 @@ func BuildAmiE(t testing.TestingT, options *Options) (string, error) {
 //
 // 1456332887,amazon-ebs,artifact,0,id,us-east-1:ami-b481b3de
 // 1533742764,googlecompute,artifact,0,id,terratest-packer-example-2018-08-08t15-35-19z
-//
 func extractArtifactID(packerLogOutput string) (string, error) {
 	re := regexp.MustCompile(`.+artifact,\d+?,id,(?:.+?:|)(.+)`)
 	matches := re.FindStringSubmatch(packerLogOutput)
